@@ -34,6 +34,3 @@ Este projeto faz parte da minha jornada de estudos em desenvolvimento web focado
 - Node.js
 - Express.js
 - MongoDB / PostgreSQL
-
-## 📂 Estrutura do Repositório
-
