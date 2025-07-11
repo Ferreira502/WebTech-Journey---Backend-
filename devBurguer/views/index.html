@@ -10,20 +10,25 @@
 </head>
 <body>
     
-  <!-- Banner com Logo -->
-  <header class="banner">
-    <!-- <img src="logo.png" alt="Logo DevBurguer" class="logo" /> -->
-    <h1 class="h4">DevBurguer</h1>
-    <p>O melhor hambúrguer entre os devs</p>
-  </header>   
+ <!-- Banner com imagem -->
+<header class="banner">
+  <!-- Apenas imagem de fundo aqui -->
+</header>
 
-  <!-- Menu superior -->
-  <div class="menu-bar">
-    <input type="text" class="Barra_pesquisa" placeholder="Pesquisar Produtos por Nome ou descrição" />
-    <button class="pedidos">📋 Meus Pedidos</button>
-    <button class="sugestões">❗ Sugestões De hambúrgueres</button>
-    <span id="status-loja" class="status">🔴 Fechado</span>
-  </div>
+<!-- Titulo -->
+<div class="titulo-centralizado">
+  <h1>DevBurguer</h1>
+  <p>O melhor hambúrguer entre os devs</p>
+</div>
+
+<!-- Menu superior -->
+<div class="menu-bar">
+  <input type="text" class="Barra_pesquisa" placeholder="Pesquisar Produtos por Nome ou descrição" />
+  <button class="pedidos">📋 Meus Pedidos</button>
+  <button class="sugestões">❗ Sugestões De hambúrgueres</button>
+  <span id="status-loja" class="status">🔴 Fechado</span>
+</div>
+
 
   <!-- Abas -->
   <div class="abas">
@@ -37,14 +42,13 @@
   <div class="produtos">
     <h5 class="lanches_texto">🍔 Lanches</h5>
 
-    <!-- Produto -->
     <div class="tipos_lanches">
       <div class="caixa_lanches">
         <h6>Debug Burger</h6>
         <p> Pão australiano, hambúrguer artesanal, cheddar derretido, cebola caramelizada, bacon crocante, e molho barbecue</p>
         <span>R$ 18,00</span>
       </div>
-      <img src="debug.jpg" alt="Debug Burger">
+      <img src="../public/images/debugBurguer.jpg" alt="Debug Burger">
     </div>
 
     <div class="tipos_lanches">
@@ -53,7 +57,7 @@
         <p>Pão,Duplo hambúrguer de costela, queijo gouda, ovo, cebola roxa e molho picante da casa</p>
         <span>R$ 21,00</span>
       </div>
-      <img src="deploy.jpg" alt="Deploy Duplo">
+      <img src="../public/images/DeployDuplo.jpg" alt="Deploy Duplo">
     </div>
 
     <div class="tipos_lanches">
@@ -62,7 +66,7 @@
         <p>Pão,Hambúrguer de picanha, queijo cheddar duplo, maionese de alho e fritas dentro do pão</p>
         <span>R$ 22,00</span>
       </div>
-      <img src="commit.jpg" alt="Commit Burger">
+      <img src="../public/images/CommitBurguer.jpg" alt="Commit Burger">
     </div>
 
     <div class="tipos_lanches">
@@ -71,7 +75,25 @@
         <p>Pão, Ingrediente surpresa do dia! (Base de carne bovina ou frango + molho exclusivo da casa)</p>
         <span>R$ 22,00</span>
       </div>
-      <img src="404.jpg" alt="404">
+      <img src="../public/images/404Burguer.jpg" alt="404">
+    </div>
+
+    <div class="tipos_lanches">
+      <div class="caixa_lanches">
+        <h6>Bugless Veggie</h6>
+        <p>Hambúrguer de grão-de-bico, rúcula, tomate seco, queijo vegetal e molho de ervas</p>
+        <span>R$ 22,00</span>
+      </div>
+      <img src="../public/images/BuglessVeggie.jpg" alt="bugless">
+    </div>
+
+    <div class="tipos_lanches">
+      <div class="caixa_lanches">
+        <h6>JS Bacon Bomb</h6>
+        <p>Hambúrguer de carne bovina, queijo muçarela, cebola empanada, bacon bits e molho honey mustard.</p>
+        <span>R$ 23,00</span>
+      </div>
+      <img src="../public/images/BaconBomb.jpg" alt="baconBomb">
     </div>
   </div>
 
@@ -80,16 +102,77 @@
         <h5 class="lanches_texto">🥤 Bebidas</h5>
 
         <!-- Produto -->
-    <div class="tipos_lanches">
+    <div class="tipos_bebidas">
       <div class="caixa_lanches">
         <h6>Água</h6>
         <p>500ml</p>
         <span>R$ 2,50</span>
       </div>
-      <img src="debug.jpg" alt="agua">
+      <img src="../public/images/Agua" alt="agua">
     </div>
 
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>Água com gás</h6>
+        <p>500ml</p>
+        <span>R$ 3,00</span>
+      </div>
+      <img src="../public/images/AguaGas" alt="agua com gas">
+    </div>
 
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>Guaraná Lata</h6>
+        <p>350ml</p>
+        <span>R$ 6,50</span>
+      </div>
+      <img src="../public/images/Guarana.jpg" alt="guarana">
+    </div>
+
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>Coca Cola</h6>
+        <p>350ml</p>
+        <span>R$ 6,50</span>
+      </div>
+      <img src="../public/images/Coca.jpg" alt="coca">
+    </div>
+
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>API Shake</h6>
+        <p>500ml</p>
+        <span>R$ 10,00</span>
+      </div>
+      <img src="../public/images/ApiShake.jpg" alt="api">
+    </div>
+
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>Energy Script</h6>
+        <p>300ml</p>
+        <span>R$ 8,50</span>
+      </div>
+      <img src="../public/images/Energy.jpg" alt="energy">
+    </div>
+
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>Frontend Fizz</h6>
+        <p>300ml</p>
+        <span>R$ 5,50</span>
+      </div>
+      <img src="../public/images/FrontEndFizz.jpg" alt="fizz">
+    </div>
+
+    <div class="tipos_bebidas">
+      <div class="caixa_lanches">
+        <h6>Dark Mode Berry</h6>
+        <p>300ml</p>
+        <span>R$ 8,50</span>
+      </div>
+      <img src="../public/images/DarkModeBerry.jpg" alt="fizz">
+    </div>
 
     </div>
 
