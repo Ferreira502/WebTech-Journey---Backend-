@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sugestões - DevBurger</title>
+  <link rel="stylesheet" href="../public/css/contato.css" />
+</head>
+<body>
+  <form action="/sugestao" method="POST">
+    <h1>🍔 Sugira um novo lanche!</h1>
+
+    <label for="nome">Seu nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
+
+    <label for="lanche">Nome do lanche:</label><br>
+    <input type="text" id="lanche" name="lanche" required><br><br>
+
+    <label for="descricao">Descrição:</label><br>
+    <textarea id="descricao" name="descricao" required></textarea><br><br>
+
+    <button type="submit">Enviar sugestão</button>
+  </form>
+</body>
+</html>

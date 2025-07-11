@@ -10,15 +10,18 @@ function verificarStatusLoja() {
   const hora = agora.getHours();
   const statusLoja = document.getElementById("status-loja");
 
-  const aberto = hora >= 18 && hora <= 23;
+  const aberto = hora >= 18 && hora <= 22;
 
   if (aberto) {
     statusLoja.textContent = "🟢 Aberto";
-    statusLoja.style.color = "green";
+    statusLoja.style.color = "white";
+    statusLoja.style.backgroundColor = "green";
   } else {
     statusLoja.textContent = "🔴 Fechado";
-    statusLoja.style.color = "red";
+    statusLoja.style.color = "white";
+    statusLoja.style.backgroundColor = "red";
   }
 }
+
 
 verificarStatusLoja();
