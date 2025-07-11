@@ -1,0 +1,158 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Banner superior */
+.banner {
+  background-color: #f8d7da;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.banner .logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+/* Menu superior */
+.menu-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.Barra_pesquisa {
+  flex: 1;
+  padding: 0.5rem;
+  min-width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.pedidos,
+.sugestões {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pedidos {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.sugestões {
+  background-color: #fff3cd;
+  color: #664d03;
+}
+
+.status {
+  color: red;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Abas */
+.abas {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.botao_aba button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.botao_aba .botao_lanches {
+  border-bottom: 3px solid red;
+  color: red;
+}
+
+/* Produtos */
+.produtos {
+  padding: 1rem;
+}
+
+.lanches_texto {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.tipos_lanches {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tipos_lanches img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.caixa_lanches h6 {
+  margin-bottom: 0.25rem;
+}
+
+.caixa_lanches p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.caixa_lanches span {
+  font-weight: bold;
+  color: green;
+}
+
+
+/* Bebidas */
+
+.bebidas_texto {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.tipos_bebidas img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.caixa_bebidas h6 {
+  margin-bottom: 0.25rem;
+}
+
+.caixa_bebidas p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.caixa_bebidas span {
+  font-weight: bold;
+  color: green;
+}
